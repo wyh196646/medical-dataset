@@ -1,32 +1,19 @@
 # List of Medical (Imaging) Datasets
-I maintain this list mostly as a personal braindump of interesting medical datasets, with a focus on medical imaging.   
-Rather than try to group / cluster datasets, I'm going to try to maintain a set of keywords for each.  
-See [commit log](https://github.com/adalca/medical-datasets/commits/master) for a list of additions over time.
+
 
 Please feel free to contribute!
 
 **Disclaimer**: please remember to solve real clinical problems ☺
 
-## Datasets processed by us
 
-### [Neurite-OASIS](https://github.com/adalca/medical-datasets/blob/master/neurite-oasis.md)
-414 T1 MRIs from the OASIS dataset, processed using FreeSurfer and SAMSEG  
-Includes original images, along with processed volumes and resulting anatomical segmentation maps  
-**Keywords**: large, MRI, segmentations, labels, annotations, processed
-
-### [SynthStrip](https://w3id.org/synthstrip)
-Full-head images and ground-truth brain masks from 622 MRI, CT, and PET scans  
-Includes a landscape or MRI scans with different contrasts, resolutions, and populations from infants to glioblastoma patients  
-Also includes anatomical segmentation maps for a subset of the images  
-**Keywords**: large, diverse, multi-modal, brain masks, segmentations, brain extraction, skull stripping
 
 
 ## Main Medical Imaging List
-  
+
 ### [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/)
 224,316 chest radiographs of 65,240 patients, with labels from reports  
 **Keywords**: very-large, X-ray, labels
-  
+
 ### [ChestXray-NIHCC](https://nihcc.app.box.com/v/ChestXray-NIHCC)
 100000 radiographs  
 **Keywords**: very-large, X-ray, labels
@@ -52,8 +39,8 @@ labeled with 174 different radiographic findings,  19 differential diagnoses and
 Several collections  
 Tons of Images of various kinds, including CT, MR, Pathology, PT, with diagnoses  
 **Keywords**: vary-large, CT, MR, labels
-  
-  
+
+
 ### [National Lung Screening Trial](https://wiki.cancerimagingarchive.net/display/NLST/National+Lung+Screening+Trial)
 Part of Cancer Imaging Archive  
 50000+ patients with CT data, some pathology, limited availability  
@@ -70,7 +57,7 @@ Part of Cancer Imaging Archive
 ### [ABCD Neurocognitive Prediction Challenge](https://sibis.sri.com/abcd-np-challenge/)
 MRI for 8500 young (9-10yo) subjects (about 4100 for training)  
 **Keywords**: large, MRI
-  
+
 ### [AAPM Sparse-View CT Reconstruction Challenge](https://www.aapm.org/GrandChallenge/DL-sparse-view-CT/)
 4,000 simulated sinogram/image pairs of 2D breast CTs
 **Keywords**: large, CT, reconstruction
@@ -130,7 +117,7 @@ Brain MRI images together with manual FLAIR abnormality segmentation masks
 ### [Studyforrest](http://studyforrest.org/data.html)
 Few subjects, but many modalities (T1,T2,SWI,Angio,DWI, fMRI during Forrest Gump at 3T (audio+visual+eyetracking+physio) and 7T (audio+physio only), some audio tasks, and other important visual tasks)  
 **Keywords**: small, multi-modal
-  
+
 ### [Lung Image Database Consortium](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)
 LIDC-IDRI consists of diagonstic and lung cancer screening CTs.   
 1018 cases with some Radiologist Annotations/Segmentations and nodule counts   
@@ -141,12 +128,12 @@ Also available through [LUng Nodule Analysis (LUNA) challenge](https://luna16.gr
 922 breast cancer patients publicly available for machine learning and clinical research.  
 Contains breast MRIs, clinical, demographics, pathology, treatment, outcomes, and genomic data as well as image annotations (locations) and features.  
 **Keywords**: large, MRI, labels
-  
+
 ### [UK Biobank](https://biobank.ctsu.ox.ac.uk/crystal/download.cgi)
 [All imaging](http://biobank.ctsu.ox.ac.uk/crystal/search.cgi?wot=2&srch=imaging&sta0=on&sta1=on&sta2=on&sta3=on&sta4=on&str0=on&str3=on&fit0=on&fit10=on&fit20=on&fit30=on&fvt11=on&fvt21=on&fvt22=on&fvt31=on&fvt41=on&fvt51=on&fvt61=on&fvt101=on)  
 [Fundus imaging](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100016)  
 **Keywords**: very-large
-  
+
 ### [OpenOrganelle](https://openorganelle.janelia.org/about)  
 high resolution tissue-scale volume electron microscopy (vEM) datasets acquired with the enhanced focused ion beam scanning electron microscopy (FIB-SEM) technology developed at Janelia. Accompanying these EM volumes are automated segmentations and analyses of intracellular sub-structures.  
 **Keywords**: very large, EM, segmentation
@@ -386,5 +373,3 @@ With access to MIMIC, can access eICU-CRD immediately after signing an updated D
     Note the nice ["fast preview" feature](https://openneuro.org/datasets/ds001715/versions/1.0.0/file-display/sub-03:anat:sub-03_T1w.nii.gz)  
  - [The Cancer Image Archive](http://www.cancerimagingarchive.net/)
  - [Cornell Public Image Databases](http://www.via.cornell.edu/databases/)  
- 
-
